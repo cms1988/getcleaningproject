@@ -1,5 +1,3 @@
-##Put your working directory here that contains the folder UCI_HAR_Dataset
-setwd("c://Users//a42664//Desktop//Coursera//WD_R")
 wdatual<-getwd()
 
 set_dir <- function(directory){
@@ -115,5 +113,5 @@ colnames(tidy)<-c(    "subject"	,	"activity"	,
                       "meanstd.of.f.bodyaccmag"	,	"meanstd.of.f.bodybodyaccjerkmag"	,
                       "meanstd.of.f.bodybodygyromag"	,	"meanstd.of.f.bodybodygyrojerkmag"	)
 
-
+# Write a file to upload at Coursera
 write.table(tidy,file="tidy_getcleaningprojet.txt")
