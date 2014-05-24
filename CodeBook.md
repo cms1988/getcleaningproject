@@ -31,7 +31,7 @@ for each record it is provided:
 - An identifier of the subject who carried out the experiment.
 
 #About the final Dataset:tidy
-It was extracted all the variables that contained the terms "mean" and "std" on its names.
+It was extracted all the variables that contained the terms "mean" and "std" on its names and calculated the mean for each combination of volunteer and activity.
 There is 180 lines of observations with 88 columns of variables described as below:
 
 * subject: identifier of the volunteers
